@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #1e2d69;
+        }
+        .header {
+            position: relative;
+            padding: 15px;
+            text-align: center;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header img {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        .header h1 {
+            font-size: 18px;
+            margin: 0;
+            color: #1e2d69;
+        }
+        .content {
+            padding: 15px;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .feedback-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .feedback-buttons button {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            color: #1e2d69;
+            border: 1px solid #1e2d69;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+        .feedback-buttons button:first-child {
+            margin-right: 10px;
+        }
+        .feedback-buttons button:hover {
+            background-color: #e0e0e0;
+        }
+        .contact {
+            text-align: center;
+            font-size: 16px;
+            color: #1e2d69;
+        }
+        .contact select {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border: 1px solid #1e2d69;
+            color: #1e2d69;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="back-icon.png" alt="Back" width="20">
+        <h1>Help center</h1>
+    </div>
+
+    <div class="content">
+        <h2>Does a recipient need an account with U.S. Bank if I send money with Zelle?</h2>
+        <p>An account with U.S. Bank isn't required to receive money with Zelle. The recipient will receive an email or text with instructions to claim the money you send.</p>
+        <p>We suggest letting them know you're using Zelle to send them money, before completing the transaction. This way, your recipient has the opportunity to ensure their account information on their Zelle profile is correct. If they're not enrolled with Zelle, the recipient needs to do so to collect the funds.</p>
+
+        <div class="feedback-buttons">
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+
+        <div class="contact">
+            Contact a banker for more help.
+            <select>
+                <option value="default">Select an option</option>
+            </select>
+        </div>
+    </div>
+
+</body>
+</html>
